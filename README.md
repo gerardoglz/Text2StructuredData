@@ -6,9 +6,9 @@ Assorted code used to import text data into a processing pipeline:
 The aim of this code is to compare the performance of a simple algorithm against other implementations written in Matlab and Python. Parts of the code have been deleted due to the sensitivity of the data.
 
  Data source consists of:
- subjectId: patient ID
- date: date of visit(s) to hospital
- scan_is_contrast_enhanced: whether a patient has been scanned with an special MRI scan
+ 1) subjectId: patient ID
+ 2) date: date of visit(s) to hospital
+ 3) scan_is_contrast_enhanced: whether a patient has been scanned with an special MRI scan
 
 Note: Standard R assign syntax (<-) has been replaced by = for clarity 
 
