@@ -10,7 +10,7 @@ The aim of this code is to compare the performance of a simple algorithm against
  2) date: date of visit(s) to hospital
  3) scan_is_contrast_enhanced: whether a patient has been scanned with an special MRI scan
 
-Note: Standard R assign syntax (<-) has been replaced by = for clarity 
+Note: Standard R assignment syntax (<-) has been replaced by = for clarity 
 
 
 *clinical_JsonImporter.py* - Python code to read thousands of clinic letters that have been pre-processed through NLP to extract clinical terms such as symptoms, diagnoses, etc. A patient may have one or more clinic letter(s) associated to them and each letter is an independent PDF file located in a secure server. The results of NLP preprocessing are saved in a single JSON file, which may or may not correspond to the directory structure of the PDF files in the server.
