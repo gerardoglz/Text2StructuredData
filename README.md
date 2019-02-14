@@ -19,10 +19,12 @@ Note: Standard R assignment syntax (<-) has been replaced by = for clarity
  2)  each PDF clinic letter in the server
  3)  the NLP keywords for each letter within the JSON file
 
- NLP tool provides a list of keywords and phrases used in the clinical domain, containing assertions and denials of  medical terms (e.g. patient has trouble sleeping, no issues when sleeping). We will use the 'mood' of the keyword to create a binary matrix there each patient has a positive or negative term associated to specific symptoms. For example,
+ NLP tool provides a list of keywords and phrases used in the clinical domain, containing assertions and denials of  medical terms (e.g. patient has trouble sleeping, no issues when sleeping). We will use the 'mood' of the keyword to create a binary matrix where each patient has a positive or negative term associated to specific symptoms. For example,
  
-               sleepNormal
-    patient1       0
-    patient2       1
-
+               sleepNormal walkNormal ...
+    patient1       0           1
+    patient2       1           0
+       .
+       .
+       
  The resulting matrix will be exported for a machine learning prediction model
